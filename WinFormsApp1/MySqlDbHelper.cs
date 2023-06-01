@@ -12,7 +12,7 @@ namespace WinFormsApp1
         public MySqlConnection conn = null;
         public MySqlCommand result = null;
         public MySqlDataReader dataRead = null;
-        public string connStr = "server=39.101.140.146;persistsecurityinfo=True;user id=z2xh_database;password='zx5KRyaDGDmBsD4L';database=z2xh_database;port=3306;allowuservariables=True";
+        public string connStr = "server=localhost;persistsecurityinfo=True;user id=1;password='1';database=1;port=3306;allowuservariables=True";
 
 
         public MySqlConnection GetConnection()//检测是否已经连接数据库,若否则连接
